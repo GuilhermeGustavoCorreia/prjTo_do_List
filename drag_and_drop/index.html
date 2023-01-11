@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag adn Drop API - Simple Kanban Board</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    
+
+    <div class="boards">
+        <div class="board">
+            <h3>Todo</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status green"></div>
+                    <div class="content">Conteúdo</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <h3>In Progress</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status blue"></div>
+                    <div class="content">Conteúdo</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <h3>Done</h3>
+            <div class="dropzone">
+                <div class="card"  draggable="true">
+                    <div class="status red"></div>
+                    <div class="content">Conteúdo</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
